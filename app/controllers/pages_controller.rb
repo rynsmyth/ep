@@ -1,22 +1,17 @@
 class PagesController < ApplicationController
 
 def home
-
 end
 
 def about
-
-
 end
 
-def instructor
-
+def instructors
 end
 
-def course
-
+def courses
 end
 
-def faq
-
+def questions
+end
 end
