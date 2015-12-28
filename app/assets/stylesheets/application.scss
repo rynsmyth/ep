@@ -25,6 +25,12 @@ body { padding-top: 70px; };
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+  background: image-url('Executive-Protection_bg.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
 }
 
 
