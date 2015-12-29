@@ -4,5 +4,6 @@ get '/about' => 'pages#about'
 get '/instructors' => 'pages#instructors'
 get '/courses' => 'pages#courses'
 get '/questions' => 'pages#questions'
+resources :contacts
 
 end
