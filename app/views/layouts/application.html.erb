@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Ep</title>
+  <title>RTI</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
       <%= csrf_meta_tags %>
@@ -49,7 +49,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">EP</a>
+              <%= link_to "RTI", root_path, class: "navbar-brand" %>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -100,10 +100,8 @@
     </div>
     <!-- FOOTER -->
     <footer>
-      <p class="pull-right"><a href="#">Back to top</a></p>
-      <p>&copy; 2015 Ryan Smyth &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      <p>&copy; 2015 Ryan Smyth</p>
     </footer>
-
     </div>
     <!-- /.container -->
 
