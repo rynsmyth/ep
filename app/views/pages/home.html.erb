@@ -9,13 +9,11 @@
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <%= image_tag "images.jpeg", class: "first-slide", alt: "first-slide" %>
+      <%= image_tag '#', class: "first-slide", alt: "first-slide" %>
       <div class="container">
         <div class="carousel-caption">
           <h1>Example headline.</h1>
-          <p>Note: If you're viewing this page via a
-            <code>file://</code>
-            URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+          <p>Note: If you're viewing this page via a URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
           <p>
             <a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a>
           </p>
@@ -23,7 +21,7 @@
       </div>
     </div>
     <div class="item">
-      <%= image_tag "jj_bio.png",class: "second-slide", alt: "second-slide" %>
+      <%= image_tag "#",class: "second-slide", alt: "second-slide" %>
       <div class="container">
         <div class="carousel-caption">
           <h1>Another example headline.</h1>
@@ -35,7 +33,7 @@
       </div>
     </div>
     <div class="item">
-      <%= image_tag "jj_bio.png",class: "third-slide", alt: "third-slide" %>
+      <%= image_tag "#",class: "third-slide", alt: "third-slide" %>
       <div class="container">
         <div class="carousel-caption">
           <h1>One more for good measure.</h1>
@@ -67,21 +65,24 @@
   <!-- Three columns of text below the carousel -->
   <div class="row">
     <div class="col-lg-6">
-      <%= image_tag "jj_bio.png",class: "img-circle", alt: "Generic placeholder image", width: "140", height:"140" %>
+      <%= image_tag "#",class: "img-circle", alt: "Generic placeholder image", width: "140", height:"140" %>
       <h2>JJ Pugsley</h2>
       <h3>President/ Head Instructor</h3>
-      <p>With over 14 years of combined executive protection, armed security and military experience, JJ brings a wealth of knowledge and real world applications to the training cadre. In addition to specialized training he received with serving on Naval
-        Special Clearance Team One, he has also completed a myriad of executive protection, tactical firearms and instructor certification courses to continue his expertise</p>
+      <p>With over 14 years of combined executive protection, armed security and military experience, JJ brings a wealth of knowledge and real world applications to the training cadre.
+      </p>
+      <p>In addition to specialized training he received with serving on Naval Special Clearance Team One, he has also completed a myriad of executive protection, tactical firearms and instructor certification courses to continue his expertise</p>
       <p>
         <%= link_to 'See More', instructors_path, class: 'btn btn-default' %>
       </p>
     </div>
     <!-- /.col-lg-6 -->
     <div class="col-lg-6">
-      <%= image_tag "jj_bio.png",class: "img-circle", alt: "Generic placeholder image", width: "140", height:"140" %>
+      <%= image_tag "#",class: "img-circle", alt: "Generic placeholder image", width: "140", height:"140" %>
       <h2>Jeremiah Sipes</h2>
       <h3>Vice-President/ Director of Training</h3>
-      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+      <p>Jeremiah brings over 13 years of experience and a wide variety of skills and real world application to the cadre.</p>
+      <p>He has successfully completed more than 2,000 motorcade operations around the world, operating from every position in the movement; he has an exceptional sense of tactical driving techniques and practices.
+      </p>
       <p>
         <%= link_to 'See More', instructors_path, class: 'btn btn-default' %>
       </p>
@@ -96,10 +97,11 @@
 
   <div class="row featurette">
     <div class="col-md-7">
-      <h2 class="featurette-heading">Upcoming Clases
-        <span class="text-muted">It'll blow your mind.</span>
-      </h2>
-      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      <h2 class="featurette-heading">Upcoming Clases</h2>
+      <h3>NRA Basic Pistol Shooting (CCW) Course</h3>
+      <p class="lead">This course exceeds the requirements for the state of Colorado’s proof of firearms training needed to apply for the Concealed Carry Weapon (CCW) permit.</p>
+      <p>Teaches the basic knowledge, skills, and attitude for owning and operating a pistol safely.</p>
+      <p>Date: 1/24/2016 12:00pm - 8:00pm</p>
     </div>
     <div class="col-md-5">
       <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
